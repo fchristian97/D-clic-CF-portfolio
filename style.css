@@ -1,0 +1,195 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+header {
+  background: #111;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+}
+
+.logo span {
+  color: #00e0c6;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00e0c6;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-img img {
+  max-width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #00e0c6;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00b8a0;
+}
+
+/* About */
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-img {
+  flex: 1;
+  text-align: right;
+}
+
+.about-img img {
+  border-radius: 50%;
+}
+
+/* Projects */
+.projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+}
+
+/* Skills */
+.skills {
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-card {
+  width: 45%;
+}
+
+.bar {
+  background: #ddd;
+  height: 8px;
+  border-radius: 5px;
+  margin: 5px 0 15px;
+}
+
+.fill {
+  height: 8px;
+  background: #00e0c6;
+  border-radius: 5px;
+}
+
+/* Contact */
+.contact {
+  padding: 50px;
+  text-align: center;
+  background: #111;
+  color: #fff;
+}
+
+.contact span {
+  color: #00e0c6;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 60%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
