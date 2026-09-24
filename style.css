@@ -68,10 +68,21 @@ nav ul li a:hover {
   flex: 1;
   text-align: right;
 }
+#img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 180px;
+  animation: dance 1.2s ease-in-out infinite;
+}
+
+@keyframes dance {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
 
 .hero-img img {
   max-width: 100%;
-
 }
 
 .btn {
@@ -193,5 +204,5 @@ footer {
   background: #111;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
