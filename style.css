@@ -70,9 +70,10 @@ nav ul li a:hover {
 }
 #img {
   max-width: 250px;
+  min-width: 0px;
   height: auto;
   border-radius: 180px;
-  animation: dance 1.2s ease-in-out infinite;
+  animation: dance 2.1s ease-in-out infinite;
 }
 
 @keyframes dance {
